@@ -8,6 +8,10 @@ class Loggin extends Singleton
 {
     private $fileHandle;
 
+    /**
+     * @param string $message
+     * @return void
+     */
     public function writeLog(string $message): void
     {
         $this->fileHandle = fopen('php://stdout', 'w');
@@ -15,6 +19,10 @@ class Loggin extends Singleton
         fwrite($this->fileHandle, "$date: $message\n");
     }
 
+    /**
+     * @param string $message
+     * @return void
+     */
     public static function log(string $message): void
     {
         $logger = static::getInstance();

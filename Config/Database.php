@@ -7,12 +7,18 @@ use PDO;
 
 class Database extends Singleton
 {
+    /**
+     * @return array
+     */
     public function getConnection(): array
     {
         return PDO::getAvailableDrivers();
     }
 
-    public function getDrivers(): array
+    /**
+     * @return void
+     */
+    public function getDrivers(): void
     {
         $database = self::getInstance();
         $database->getConnection();
