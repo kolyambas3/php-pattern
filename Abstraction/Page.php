@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Abstraction;
+use Renderer;
 
 abstract class Page
 {

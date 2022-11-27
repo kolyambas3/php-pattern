@@ -2,7 +2,7 @@
 
 namespace App\Model;
 
-use App\Interface\Engine;
+use App\Interfaces\Engine;
 
 class V8 implements Engine
 {

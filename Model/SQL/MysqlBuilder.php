@@ -2,7 +2,7 @@
 
 namespace App\Model\SQL;
 
-use App\Interface\SQLBuilder;
+use App\Interfaces\SQLBuilder;
 
 class MysqlBuilder implements SQLBuilder
 {

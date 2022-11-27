@@ -2,9 +2,9 @@
 
 namespace App\Factory;
 
-use App\AbstractFactory\Interface\Car;
-use App\Interface\Engine;
-use App\Interface\Model;
+use App\Interfaces\AbstractFactory\car;
+use App\Interfaces\Engine;
+use App\Interfaces\Model;
 use App\Model\A8;
 use App\Model\V6;
 

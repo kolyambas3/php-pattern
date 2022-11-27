@@ -1,9 +1,9 @@
 <?php
 
-namespace App\AbstractFactory\Interface;
+namespace App\Interfaces\AbstractFactory;
 
-use App\Interface\Engine;
-use App\Interface\Model;
+use App\Interfaces\Engine;
+use App\Interfaces\Model;
 
 interface Car {
     public function model(): Model;

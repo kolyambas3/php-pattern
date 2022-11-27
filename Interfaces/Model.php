@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Interface;
+namespace App\Interfaces;
 
 interface Model {
     public function name(): string;

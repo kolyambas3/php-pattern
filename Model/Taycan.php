@@ -2,7 +2,7 @@
 
 namespace App\Model;
 
-use App\Interface\Model;
+use App\Interfaces\Model;
 
 class Taycan implements Model
 {

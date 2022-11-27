@@ -2,9 +2,9 @@
 
 namespace App\Model;
 
-use App\Interface\Car;
-use App\Interface\Engine;
-use App\Interface\Model;
+use App\Interfaces\Car;
+use App\Interfaces\Engine;
+use App\Interfaces\Model;
 
 class Porsche implements Car
 {
